@@ -4,7 +4,7 @@ tmp_dir = "tmp"
 
 [build]
   args_bin = ["serve"]
-  bin = "./tmp/main"
+  bin = "./scripts/app.sh serve"
   cmd = "go build -o ./tmp/main ./src/main.go"
   delay = 1000
   exclude_dir = ["assets", "tmp", "vendor", "testdata", "node_modules", "database"]
